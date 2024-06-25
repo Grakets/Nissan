@@ -1,0 +1,82 @@
+body{
+    font-family: verdana;
+    background: url("../Imagenes/Banner10.jpg");
+    background-repeat: repeat;
+}
+
+h1{
+    color: mediumorchid;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "calibri light";
+}
+
+.contenedor{
+    background: tomato;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 400px;
+    background-image: url("../img/nissann.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background: rgb(0, 0, 0);
+    padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.boton a{
+    background: rgb(49, 0, 128);
+    text-decoration: none; /*Quita subrayado*/
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.boton a:hover{
+    background: #005252;
+}
+
+footer{
+    background: rgb(66, 0, 128);
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
+
+p,h2,li{
+    color: #ffffff;
+}
+
+label{
+    color: #f32c09;
+}
